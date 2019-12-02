@@ -6,6 +6,7 @@ int main()                                    // starting of main() function
     scanf("%d",&c);                            // scanning the int number from user
     if (c == 0)                                //logic
         return 0;
+    printf("\n");
     while (c!=1)                               //logic
     {
         if (c % 2 == 0)
@@ -15,5 +16,5 @@ int main()                                    // starting of main() function
         printf("-->");
         printf("%d",c);                         // printing the pattern in desired foam 
     }
-    printf("\n");
+    printf("\n\n");
 }
